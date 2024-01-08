@@ -39,28 +39,4 @@ public class CongThucServices implements ICongThuc {
         }
         return "Them thanh cong";
     }
-
-    public MonAnRepo getMonAnRepo() {
-        return monAnRepo;
-    }
-
-    public void setMonAnRepo(MonAnRepo monAnRepo) {
-        this.monAnRepo = monAnRepo;
-    }
-
-    public NguyenLieuRepo getNguyenLieuRepo() {
-        return nguyenLieuRepo;
-    }
-
-    public void setNguyenLieuRepo(NguyenLieuRepo nguyenLieuRepo) {
-        this.nguyenLieuRepo = nguyenLieuRepo;
-    }
-
-    public CongThucRepo getCongThucRepo() {
-        return congThucRepo;
-    }
-
-    public void setCongThucRepo(CongThucRepo congThucRepo) {
-        this.congThucRepo = congThucRepo;
-    }
 }
